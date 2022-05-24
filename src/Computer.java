@@ -13,7 +13,7 @@ public class Computer {
         this.model = model;
         this.cost = cost;
         ram = new Ram(null, 15);
-        hdd = new Hdd(null, 15,vneshnij);
+        hdd = new Hdd(null, 15,null);
     }
 
     public Computer(String model, int cost, Ram ram, Hdd hdd) {
